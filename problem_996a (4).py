@@ -34,9 +34,7 @@ def divide_money(money):
       break
 
   return quantity_of_bills
-
-# Commented because of problem with input in codeforce
     
-# money = int(input("Money: "))
+money = int(input())
 
-# print(divide_money(money))
+print(divide_money(money))

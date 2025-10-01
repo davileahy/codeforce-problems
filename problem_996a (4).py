@@ -12,6 +12,11 @@ Original file is located at
 # Stops loop if money equals 0.
 # Outputs number of bills used.
 
+# Verifies if bill divided by money is 0, if so, money is reduced to the rest
+# of division value, and adds count to the quantity of bills used.
+# Stops loop if money equals 0.
+# Outputs number of bills used.
+
 def divide_money(money):
   bills = [1, 5, 10, 20, 100]
 
@@ -30,6 +35,8 @@ def divide_money(money):
 
   return quantity_of_bills
 
-money = int(input("Money: "))
+# Commented because of problem with input in codeforce
+    
+# money = int(input("Money: "))
 
-print(divide_money(money))
+# print(divide_money(money))
